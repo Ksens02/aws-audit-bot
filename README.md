@@ -64,10 +64,9 @@ authorization before running security audits on AWS resources. The tool performs
 but may generate logs and reports that could contain sensitive information.
 Support
 For issues and questions:
-- Create an issue on GitHub
 - Check the logs in `output/audit.log` for detailed error information
 - Ensure your AWS credentials and permissions are properly configured
-Changelog
+Changelog: 
 Version 2.0.0
 - Enhanced EC2 audit with comprehensive security checks
 - Improved main audit bot with professional structure
