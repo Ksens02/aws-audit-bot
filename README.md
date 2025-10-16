@@ -66,6 +66,7 @@ Support
 For issues and questions:
 - Check the logs in `output/audit.log` for detailed error information
 - Ensure your AWS credentials and permissions are properly configured
+
 Changelog: 
 Version 2.0.0
 - Enhanced EC2 audit with comprehensive security checks
