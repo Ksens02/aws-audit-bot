@@ -1,5 +1,5 @@
 # aws-audit-bot
-AWS Security Audit Bot
+AWS Security Audit Bot --
 A comprehensive, read-only security audit tool for AWS resources that helps identify security
 misconfigurations and compliance issues across multiple AWS services.
 Features
