@@ -323,7 +323,6 @@ def _check_bucket_policy(bucket_name: str, s3) -> List[Dict[str, Any]]:
         policy_doc = policy.get('Policy')
         
         if policy_doc:
-            # This is a simplified check - in production, you'd want to parse the JSON properly
             if "s3:GetObject" in policy_doc and "Principal" in policy_doc:
                 if "*" in policy_doc or "AWS" in policy_doc:
                     findings.append({
